@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  font-size: 2em; }
+
+#menu li {
+  display: inline; }
+
+.spacing, #welcome, #introduction, #projects, #contact_info {
+  margin-top: 100px; }
+
+#projects_list li {
+  display: block; }
+
+#header {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

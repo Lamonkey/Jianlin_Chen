@@ -4,30 +4,31 @@ h1 {
 
 }
 
-#menu li {
-    display:inline;
+#projects_list{
+    margin-top: 25px;
 }
 
 .spacing{
-    margin-top: 100px;
-    
-   
+    margin-top: 100px;   
 }
+
 #welcome{
    @extend .spacing;
 
 }
+
 #introduction{
     @extend .spacing;
 }
+
 #projects{
     @extend .spacing;
 }
+
 #contact_info{
    
     @extend .spacing
 }
-
 
 
 #header{

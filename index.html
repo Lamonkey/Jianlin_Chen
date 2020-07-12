@@ -40,20 +40,7 @@
             </div>
 
         </section>
-        <!-- <div id="menu" class = "rows">
-                <div class="col-1" >
-                    <button ng-click="showAll()" class="btn btn-info btn-sm text-center"> All </button>
-                </div>
-                <div class="col-1">
-                    <button ng-click="showGame()" class="btn btn-info btn-sm text-center"> Games </button>
-                </div>
-                <div class="col-1">
-                    <button ng-click="showWeb()" class="btn btn-info btn-sm text-center"> WebApp </button>
-                </div>
-                <div class="col-1">
-                    <button ng-click="showMachineLearning()" class="btn btn-info btn-sm text-center"> Machine Learning </button>
-                </div>
-            </div> -->
+       
 
         <section class="row">
             <div id="menu" class="col-12 text-center">
@@ -80,7 +67,9 @@
                     <li class="list-group-item" ng-repeat="p in projects">
                         <div class="row">
                             <div class=" col-md-7 col-sm-7 col-12">
-                                <img ng-src="{{p.img}}" class="image-responsive">
+                                <a href="index.html" target = "_blank">
+                                    <img ng-src="{{p.img}}" class="image-responsive">
+                                </a>
                             </div>
 
                             <div class=" col-md-5 col-sm-5 col-12">

@@ -72,15 +72,15 @@
                     <li class="list-group-item" ng-repeat="p in projects">
                         <div class="row">
                             <div class=" col-md-7 col-sm-7 col-12">
-                                <a href={{p.url}} target="_blank">
-                                    <img ng-src="{{p.img}}" class="image-responsive">
-                                </a>
+
+                                <img ng-src="{{p.img}}" class="image-responsive">
+
                             </div>
 
                             <div class=" col-md-5 col-sm-5 col-12">
-                                <p id = "title"> {{p.title}} </p>
-                                <p id = "description"> {{p.description}} </P>
-
+                                <p id="title"> {{p.title}} </p>
+                                <p id="description"> {{p.description}} </P>
+                                <a class="btn btn-success" href={{p.url}} target = _blank role="button">Click to Checkout!</a>
                             </div>
                         </div>
                     </li>

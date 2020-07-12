@@ -13,6 +13,34 @@ h1 {
 
 .btn {
   display: inline-block;
-  vertical-align: auto; }
+  vertical-align: auto;
+  transition-duration: 0.45s;
+  border: none;
+  color: white;
+  cursor: pointer; }
+
+.btn:hover {
+  background-color: #008cba;
+  color: white; }
+
+.list-group-item {
+  padding-left: 100em;
+  padding-left: 0em; }
+
+@media (min-width: 300px) {
+  .image-responsive {
+    display: bock;
+    max-width: 300%;
+    height: auto; } }
+@media (min-width: 500px) {
+  .image-responsive {
+    display: bock;
+    max-width: 50%;
+    height: auto; } }
+@media (min-width: 768px) {
+  .image-responsive {
+    display: bock;
+    max-width: 40%;
+    height: auto; } }
 
 /*# sourceMappingURL=style.css.map */

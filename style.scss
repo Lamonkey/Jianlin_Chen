@@ -1,44 +1,76 @@
 h1 {
-    text-align:center;
+    text-align: center;
     font-size: 2em;
-
 }
 
-#projects_list{
+#projects_list {
     margin-top: 25px;
 }
 
-.spacing{
-    margin-top: 100px;   
+.spacing {
+    margin-top: 100px;
 }
 
-#welcome{
-   @extend .spacing;
-
-}
-
-#introduction{
+#welcome {
     @extend .spacing;
 }
 
-#projects{
+#introduction {
     @extend .spacing;
 }
 
-#contact_info{
-   
-    @extend .spacing
+#projects {
+    @extend .spacing;
 }
 
+#contact_info {
+    @extend .spacing;
+}
 
-#header{
+#header {
     text-align: center;
-
 }
 
-
-
-.btn{
+.btn {
     display: inline-block;
     vertical-align: auto;
+    transition-duration: 0.45s;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #008cba;
+    color: white;
+}
+.list-group-item {
+    padding-left: 100em;
+    padding-left: 0em;
+}
+
+@media (min-width: 300px) {
+    //when screen is 500px, background is red
+    .image-responsive {
+        display: bock;
+        max-width: 300%;
+        height: auto;
+    }
+}
+
+@media (min-width: 500px) {
+    //when screen is 500px, background is red
+    .image-responsive {
+        display: bock;
+        max-width: 50%;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    //when screen is 500px, background is red
+    .image-responsive {
+        display: bock;
+        max-width: 40%;
+        height: auto;
+    }
 }

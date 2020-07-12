@@ -10,7 +10,8 @@ const projectType = {
 }
 
 //project constructor
-function Project(img, description, type) {
+function Project(title,img, description, type) {
+    this.title = title;
     this.img = img;
     this.description = description;
     this.type = type;
@@ -25,10 +26,10 @@ function Project(img, description, type) {
 //get project by type
 
 var full_project_list = []
-full_project_list.push(new Project("img", "web project1", projectType.WEB));
-full_project_list.push(new Project("img", "web project2", projectType.WEB));
-full_project_list.push(new Project("img", "game 1", projectType.GAME_DEVELOPMENT));
-full_project_list.push(new Project("img", "machine learning", projectType.MACHINE_LEARNING));
+full_project_list.push(new Project("webapp1","/img/Firefox_wallpaper.png", "web project1", projectType.WEB));
+full_project_list.push(new Project("webapp2","/img/Firefox_wallpaper.png", "web project2", projectType.WEB));
+full_project_list.push(new Project("game 1","/img/Firefox_wallpaper.png", "game 1", projectType.GAME_DEVELOPMENT));
+full_project_list.push(new Project("machine learning","/img/Firefox_wallpaper.png", "machine learning", projectType.MACHINE_LEARNING));
 
 
 function getProjectByType(type) {

@@ -11,4 +11,8 @@ h1 {
 #header {
   text-align: center; }
 
+.btn {
+  display: inline-block;
+  vertical-align: auto; }
+
 /*# sourceMappingURL=style.css.map */

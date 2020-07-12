@@ -7,7 +7,10 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
     <script src="script.js"></script>
+
+
     <title> Jianlin Chen Protfolio </title>
 
 </head>
@@ -27,7 +30,8 @@
             <div class="col-12 justify-content-md-center">
                 <p>
                     My name is Jianlin Chen, a computer science graduate from NC State university.
-                    My interested research field is machine learning and AI. During freetime I like hiking and camping. I also love making video game,
+                    My interested research field is machine learning and AI. During freetime I like hiking and camping.
+                    I also love making video game,
                     web app, and mobile app along or collaborate with other.
                 </p>
             </div>
@@ -40,10 +44,11 @@
             </div>
 
         </section>
-       
+
 
         <section class="row">
-            <div id="menu" class="col-12 text-center">
+
+            <div id="menu" class="col-12 text-center d-none d-sm-block d-md-none. ">
                 <div>
                     <button ng-click="showAll()" class="btn btn-info btn-md"> All </button>
 
@@ -67,14 +72,14 @@
                     <li class="list-group-item" ng-repeat="p in projects">
                         <div class="row">
                             <div class=" col-md-7 col-sm-7 col-12">
-                                <a href={{p.url}} target = "_blank">
+                                <a href={{p.url}} target="_blank">
                                     <img ng-src="{{p.img}}" class="image-responsive">
                                 </a>
                             </div>
 
                             <div class=" col-md-5 col-sm-5 col-12">
-                                <p style="font-weight:bold"> {{p.title}} </p>
-                                <p> {{p.description}} </P>
+                                <p id = "title"> {{p.title}} </p>
+                                <p id = "description"> {{p.description}} </P>
 
                             </div>
                         </div>
@@ -90,24 +95,24 @@
 
 
 
-        
-            <footer id = "contact_info" class = "row">
-                <div class="col-6">
-                    
-                    <p>Get in touch</p>
-                </div>
-                
-                <div class="col-9">
-                   Email: <a href="mailto:88therisingsun.com">88therisingsun@gmail.com</a>
-                    
-                </div>
-                
-              
-            
-            </footer>
-              
 
-        </section>
+        <footer id="contact_info" class="row">
+            <div class="col-6">
+
+                <p>Get in touch</p>
+            </div>
+
+            <div class="col-9">
+                Email: <a href="mailto:88therisingsun.com">88therisingsun@gmail.com</a>
+
+            </div>
+
+
+
+        </footer>
+
+
+    </section>
     </section>
     </div>
 

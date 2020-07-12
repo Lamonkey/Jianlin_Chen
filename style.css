@@ -56,16 +56,37 @@ body {
   .image-responsive {
     display: bock;
     max-width: 100%;
-    height: auto; } }
+    height: auto; }
+
+  #description {
+    margin-left: 1em; }
+
+  #title {
+    font-weight: bold;
+    text-align: center; } }
 @media (min-width: 500px) {
   .image-responsive {
     display: bock;
     max-width: 100%;
-    height: auto; } }
+    height: auto; }
+
+  #description {
+    margin-left: 0em; }
+
+  #title {
+    font-weight: bold;
+    text-align: left; } }
 @media (min-width: 768px) {
   .image-responsive {
     display: bock;
     max-width: 100%;
-    height: auto; } }
+    height: auto; }
+
+  #description {
+    margin-left: 0em; }
+
+  #title {
+    font-weight: bold;
+    text-align: left; } }
 
 /*# sourceMappingURL=style.css.map */

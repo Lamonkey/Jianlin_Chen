@@ -79,15 +79,9 @@ body{
     padding-left: 100em;
     padding-left: 0em;
 }
-
-// .img-container > img{
-//     float:left;
-//  }
-
-// .text-container > p{
-//     padding-left: 20px;
-//     float:left;
-// }
+%centerfont{
+    text-align: center;
+}
 
 @media (min-width: 300px) {
     //when screen is 500px, background is red
@@ -96,6 +90,15 @@ body{
         max-width: 100%;
         height: auto;
     }
+    #description{
+        margin-left:1em;
+    }
+
+    #title{
+        font-weight:bold;
+        text-align:center;
+    }
+
 }
 
 @media (min-width: 500px) {
@@ -105,6 +108,14 @@ body{
         max-width: 100%;
         height: auto;
     }
+    #description{
+        margin-left:0em;
+    }
+
+    #title{
+        font-weight:bold;
+        text-align:left;
+    }
 }
 
 @media (min-width: 768px) {
@@ -113,5 +124,13 @@ body{
         display: bock;
         max-width: 100%;
         height: auto;
+    }
+    #description{
+        margin-left:0em;
+    }
+
+    #title{
+        font-weight:bold;
+        text-align:left;
     }
 }

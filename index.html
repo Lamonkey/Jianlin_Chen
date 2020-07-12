@@ -14,7 +14,9 @@
 
 <body ng-app="myApp" ng-controller="myCtrl">
     <section class="container">
+
         <div class="row justify-content-center">
+
             <div class="col-12" id="welcome">
                 <h1> Welcome to my Protfolio</h1>
             </div>
@@ -37,8 +39,8 @@
                 <p id="header">My projects</P>
             </div>
 
-
-            <!-- <div id="menu" class = "rows">
+        </section>
+        <!-- <div id="menu" class = "rows">
                 <div class="col-1" >
                     <button ng-click="showAll()" class="btn btn-info btn-sm text-center"> All </button>
                 </div>
@@ -53,6 +55,7 @@
                 </div>
             </div> -->
 
+        <section class="row">
             <div id="menu" class="col-12 text-center">
                 <div>
                     <button ng-click="showAll()" class="btn btn-info btn-sm"> All </button>
@@ -67,22 +70,25 @@
                     <button ng-click="showMachineLearning()" class="btn btn-info btn-sm"> Machine Learning </button>
                 </div>
             </div>
+        </section>
+        <section class="row">
 
             <div class="w-100"></div>
             <!-- <div class="col-12"> -->
             <div>
                 <ul class="list-group" id="projects_list">
                     <li class="list-group-item" ng-repeat="p in projects">
+                        <div class="row">
+                            <div class=" col-md-7 col-sm-7 col-12">
+                                <img ng-src="{{p.img}}" class="image-responsive">
+                            </div>
 
-                        <div class="col-5 col-sm-12">
+                            <div class=" col-md-5 col-sm-5 col-12">
+                                <p style="font-weight:bold"> {{p.title}} </p>
+                                <p> {{p.description}} </P>
 
-                            <img ng-src="{{p.img}}" class="image-responsive">
+                            </div>
                         </div>
-
-                        <div class="col-7 col-sm-12">
-                            <p> {{p.description}} </P>
-                        </div>
-
                     </li>
                 </ul>
             </div>
@@ -101,7 +107,7 @@
             </div>
         </section>
     </section>
-
+    </div>
 
 
 </body>

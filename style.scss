@@ -48,11 +48,21 @@ h1 {
     padding-left: 0em;
 }
 
+// .img-container > img{
+//     float:left;
+//  }
+
+// .text-container > p{
+//     padding-left: 20px;
+//     float:left;
+// }
+
 @media (min-width: 300px) {
     //when screen is 500px, background is red
     .image-responsive {
+        
         display: bock;
-        max-width: 300%;
+        max-width: 100%;
         height: auto;
     }
 }
@@ -61,8 +71,9 @@ h1 {
     //when screen is 500px, background is red
     .image-responsive {
         display: bock;
-        max-width: 50%;
+        max-width: 100%;
         height: auto;
+        
     }
 }
 
@@ -70,7 +81,9 @@ h1 {
     //when screen is 500px, background is red
     .image-responsive {
         display: bock;
-        max-width: 40%;
+        max-width: 100%;
         height: auto;
     }
+   
+  
 }

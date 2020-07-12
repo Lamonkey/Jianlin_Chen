@@ -30,17 +30,17 @@ h1 {
 @media (min-width: 300px) {
   .image-responsive {
     display: bock;
-    max-width: 300%;
+    max-width: 100%;
     height: auto; } }
 @media (min-width: 500px) {
   .image-responsive {
     display: bock;
-    max-width: 50%;
+    max-width: 100%;
     height: auto; } }
 @media (min-width: 768px) {
   .image-responsive {
     display: bock;
-    max-width: 40%;
+    max-width: 100%;
     height: auto; } }
 
 /*# sourceMappingURL=style.css.map */

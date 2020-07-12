@@ -25,8 +25,34 @@ h1 {
 
 #contact_info {
     @extend .spacing;
+    
+}
+#contact_info{
+    font-weight:bold;
+    font-size: 1em;
+    
+ 
 }
 
+#contact_info a {
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+   background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+  transition: background-size 0.2s;
+    
+}
+
+
+:root {
+    --mainColor: #008cba;
+  }
+  
+#contact_info a:hover {
+    background-size: 4px 50px;
+}
 #header {
     text-align: center;
 }
@@ -60,7 +86,6 @@ h1 {
 @media (min-width: 300px) {
     //when screen is 500px, background is red
     .image-responsive {
-        
         display: bock;
         max-width: 100%;
         height: auto;
@@ -73,7 +98,6 @@ h1 {
         display: bock;
         max-width: 100%;
         height: auto;
-        
     }
 }
 
@@ -84,6 +108,4 @@ h1 {
         max-width: 100%;
         height: auto;
     }
-   
-  
 }

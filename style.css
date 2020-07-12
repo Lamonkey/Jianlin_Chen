@@ -8,6 +8,25 @@ h1 {
 .spacing, #welcome, #introduction, #projects, #contact_info {
   margin-top: 100px; }
 
+#contact_info {
+  font-weight: bold;
+  font-size: 1em; }
+
+#contact_info a {
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size 0.2s; }
+
+:root {
+  --mainColor: #008cba; }
+
+#contact_info a:hover {
+  background-size: 4px 50px; }
+
 #header {
   text-align: center; }
 

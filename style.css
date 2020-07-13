@@ -28,7 +28,7 @@ body {
   transition: background-size 0.2s; }
 
 :root {
-  --mainColor: #008cba; }
+  --mainColor: #4e5152; }
 
 #contact_info a:hover {
   background-size: 4px 50px; }
@@ -45,7 +45,7 @@ body {
   cursor: pointer; }
 
 .btn:hover {
-  background-color: #008cba;
+  background-color: #436ddf;
   color: white; }
 
 .list-group-item {

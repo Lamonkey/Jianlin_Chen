@@ -78,9 +78,19 @@
                             </div>
 
                             <div class=" col-md-5 col-sm-5 col-12">
-                                <p id="title"> {{p.title}} </p>
-                                <p id="description"> {{p.description}} </P>
-                                <a class="btn btn-success" href={{p.url}} target = _blank role="button">Click to Checkout!</a>
+                                <div class="row">
+
+                                    <div class="col-12 col-md-12 col-sm-12">
+                                        <p id="title"> {{p.title}} </p>
+                                        <p id="description"> {{p.description}} </P>
+                                    </div>
+
+                                    <div class="col-12 col-md-12 col-sm-12 offset-3 offset-sm-0 offset-md-0">
+                                        <a class="btn btn-success" href={{p.url}} target=_blank role="button">Click to
+                                            Checkout!</a>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </li>

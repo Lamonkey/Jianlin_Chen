@@ -63,6 +63,9 @@ body {
 
   #title {
     font-weight: bold;
+    text-align: center; }
+
+  #btn btn-success {
     text-align: center; } }
 @media (min-width: 500px) {
   .image-responsive {

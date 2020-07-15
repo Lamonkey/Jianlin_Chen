@@ -10,7 +10,7 @@ const projectType = {
 }
 
 //project constructor
-function Project(title,url,img, description, type) {
+function Project(title, url, img, description, type) {
     this.title = title;
     this.img = img;
     this.url = url;
@@ -26,7 +26,7 @@ full_project_list.push(new Project(
     "Book Review APP",
     "https://book-review112.herokuapp.com/",
     "img/book_review_app.png",
-    "A book review app built using flask and bootstrap4. A user can login or regitor into their account and search for books. There are 5000 books in the databsae. User can post review, check the rating score from other user.",
+    "A book review app built using flask and bootstrap4. Users can log in or register into their account then search for books. There are 5000 books in the database. After finding the book, users can post reviews, and check the rating score from other users.",
     projectType.WEB
 
 ));
@@ -35,7 +35,7 @@ full_project_list.push(new Project(
     "Art Gallery",
     "https://lamonkey.github.io/cs50/",
     "img/art_gallery.png",
-    "Art peice presenting website. A static web page used flexbox, grid and media query to accomplished the responsive design",
+    "An art-piece-presenting website. A static web page used flexbox, grid, and media query to accomplished the responsive design,",
     projectType.WEB
 
 ));
@@ -45,7 +45,7 @@ full_project_list.push(new Project(
     "Bezerk Video Game",
     "https://lamonkey.github.io/Bezerk/",
     "img/bezerk.png",
-    "A 3D version of Bezerk, User can use ASWD to move and aim, and use space to fire. Player will die either got hit or collide with enemy or the wall. This game is built using WebGL",
+    "This is A 3D version of Bezerk, the player can Use ASWD to move and aim, and use space to fire. The Player will die either got hit or collide with enemies or the wall. This game is built using WebGL",
     projectType.WEB
 
 ));
@@ -55,7 +55,7 @@ full_project_list.push(new Project(
     "Game Engine",
     "https://github.com/Lamonkey/gameEngine",
     "img/game_engine.jpg",
-    "It can support the development of multiply 2-D games. The structure of this game engine is very simple. First when an event is raised, can be triggered by user input, or been programmed to be raised at certain scenarios.  Event Handler will handle events according to their priority in parellel fashion. Then the server part will send infomation need to be rendered to client part. ",
+    "A basic game engine built using java. It can support the development of multiplayer 2-D games. The structure of this game engine is very simple. First, when an event is raised which can be triggered by user input, or been programmed to be raised in certain scenarios,  Event Handler will handle events according to their priority in a parallel fashion. Then the server part will send information that needs to be rendered to the client part.",
     projectType.GAME_DEVELOPMENT
 
 ));
@@ -75,7 +75,7 @@ full_project_list.push(new Project(
     "An Enemy of People",
     "https://lamonkey.github.io/An_enemy_of_people/",
     "img/an_enemy_of_people.png",
-    "This is an interactive text-based game I and my friend made using Twine. The historical setting is at the Soviet Union. The player plays as a Soviet commander. During the play through player have to solve the puzzle , making choices between good and evil. we added multi-ending, artwork, and music to this game. Some of the artworks are drawn by us, some are mosaiced noncopy right image.",
+    "This is an interactive text-based game I and my friend made using Twine. The historical setting is at the Soviet Union. The player plays as a Soviet commander. During the play through the player have to solve puzzles, making choices between being good or evil. We added multi-ending, artwork, and music to this game. Some of the artworks are drawn by us, some are mosaiced non-copy right images.",
     projectType.GAME_DEVELOPMENT
 
 ));
@@ -90,7 +90,7 @@ function getProjectByType(type) {
         case projectType.GAME_DEVELOPMENT:
             tmp_list = [];
             for (var p in full_project_list) {
-                if (full_project_list[p].type == projectType.GAME_DEVELOPMENT){
+                if (full_project_list[p].type == projectType.GAME_DEVELOPMENT) {
                     tmp_list.push(full_project_list[p]);
                 }
 
@@ -99,7 +99,7 @@ function getProjectByType(type) {
         case projectType.WEB:
             tmp_list = [];
             for (var p in full_project_list) {
-                if (full_project_list[p].type == projectType.WEB){
+                if (full_project_list[p].type == projectType.WEB) {
                     tmp_list.push(full_project_list[p]);
                 }
 
@@ -108,7 +108,7 @@ function getProjectByType(type) {
         case projectType.MACHINE_LEARNING:
             tmp_list = [];
             for (var p in full_project_list) {
-                if (full_project_list[p].type == projectType.MACHINE_LEARNING){
+                if (full_project_list[p].type == projectType.MACHINE_LEARNING) {
                     tmp_list.push(full_project_list[p]);
                 }
 

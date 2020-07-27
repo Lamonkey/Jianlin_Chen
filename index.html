@@ -5,13 +5,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
     <script src="script.js"></script>
 
 
-    <title> Jianlin Chen Protfolio </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="My name is Jianlin Chen, a computer science graduate from NC State University.
+    The research fields I interested in are machine learning and AI. During my free time, I like hiking and camping.
+    I also love making video games,
+    web app, and mobile app along or collaborate with others.">
+    <meta name="keyword" content="Jianlin chen, Protfolio, JianlinChen, jchen42">
+    <meta name="author" content="Jianlin Chen">
+    <title> Jianlin Chen's Protfolio </title>
 
 </head>
 
@@ -21,7 +27,7 @@
         <div class="row justify-content-center">
 
             <div class="col-12" id="welcome">
-                <h1> Welcome to my Protfolio</h1>
+                <h1> Welcome to Jianlin Chen's Protfolio</h1>
             </div>
         </div>
 
@@ -30,7 +36,8 @@
             <div class="col-12 justify-content-md-center">
                 <p>
                     My name is Jianlin Chen, a computer science graduate from NC State University.
-                    The research fields I interested in are machine learning and AI. During my free time, I like hiking and camping.
+                    The research fields I interested in are machine learning and AI. During my free time, I like hiking
+                    and camping.
                     I also love making video games,
                     web app, and mobile app along or collaborate with others.
                 </p>
@@ -72,9 +79,7 @@
                     <li class="list-group-item" ng-repeat="p in projects">
                         <div class="row">
                             <div class=" col-md-7 col-sm-7 col-12">
-
-                                <img ng-src="{{p.img}}" class="image-responsive">
-
+                                <img ng-src="{{p.img}}" class="image-responsive" alt="{{p.title}}">
                             </div>
 
                             <div class=" col-md-5 col-sm-5 col-12">
@@ -86,7 +91,8 @@
                                     </div>
 
                                     <div class="col-12 col-md-12 col-sm-12 offset-3 offset-sm-0 offset-md-0">
-                                        <a class="btn btn-success" href={{p.url}} target=_blank role="button">Click to Checkout!</a>
+                                        <a class="btn btn-success" href={{p.url}} target=_blank role="button">Click to
+                                            Checkout!</a>
                                     </div>
 
                                 </div>

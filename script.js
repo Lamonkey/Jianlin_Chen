@@ -63,9 +63,9 @@ full_project_list.push(new Project(
 //salary prediction
 full_project_list.push(new Project(
     "NBA Player's Salary Prediction",
-    "https://github.com/Lamonkey/PredictSalary",
+    "https://lamonkey.github.io/PredictSalary/",
     "img/salary_prediction.png",
-    "This is a model built to predict the NBA player's salary based on their stats. I used the data from the 2015-2016 season,322 basketball players in total. Then did data cleaning and used linear regression to select 8 features out of 25. Finally, I trained then hyper tuned KNN, Decision Tree, and ANN using the test set and produced three models using three different machine learning methods to predict NBA players' salary.",
+    "This is a model built to predict the NBA player's salary based on their stats. I used the data from the 2015-2016 season,322 basketball players in total. Then did data cleaning and used Boruta Algorithm to select 19 features out of 28. Finally, I trained then hyper tuned KNN, Decision Tree, and ANN using the test set and produced three models using three different machine learning methods to predict NBA players' salary.",
     projectType.MACHINE_LEARNING
 
 ));

@@ -30,16 +30,6 @@ full_project_list.push(new Project(
     projectType.WEB
 
 ));
-//GalleryDisplay
-full_project_list.push(new Project(
-    "Art Gallery",
-    "https://lamonkey.github.io/cs50/",
-    "img/art_gallery.png",
-    "An art-piece-presenting website. A static web page used flexbox, grid, and media query to accomplished the responsive design,",
-    projectType.WEB
-
-));
-
 //Bezerk
 full_project_list.push(new Project(
     "Bezerk Video Game",
@@ -77,6 +67,15 @@ full_project_list.push(new Project(
     "img/an_enemy_of_people.png",
     "This is an interactive text-based game I and my friend made using Twine. The historical setting is at the Soviet Union. The player plays as a Soviet commander. During the play through the player have to solve puzzles, making choices between being good or evil. We added multi-ending, artwork, and music to this game. Some of the artworks are drawn by us, some are mosaiced non-copy right images.",
     projectType.GAME_DEVELOPMENT
+
+));
+//article hosting website
+full_project_list.push(new Project(
+    "Article Hosting Website",
+    "https://still-oasis-62428.herokuapp.com/all",
+    "img/article_website.png",
+    "An server side rendered article hosting website implemented using Spring boot, bootstrap4 and MySQL database. User can browse articles; Admin can add, remove, editing and searching articles based on author, title, and abstract",
+    projectType.WEB
 
 ));
 
